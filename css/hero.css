@@ -1,0 +1,65 @@
+ body{
+    margin: 0;
+    background-color: #474545
+}
+header{
+    background-color: #474545;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+header img{
+    border-radius: 200px;
+    width: 350px;
+    border: 10px solid #7C7C7C;
+}
+header h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 64px;
+}
+header h2{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 32px;
+}
+h1{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+} 
+h2{
+    font-size: 48px;
+    color: #FFFFFF;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    }
+h3{
+    font-size: 36px;
+    color: #FFFFFF;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+h4{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+p{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Poppins light, Helvetica, Arial, sans-serif;
+}
+ol{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Poppins light, Helvetica, Arial, sans-serif;
+}
+ul{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Poppins light, Helvetica, Arial, sans-serif;
+}
+footer{
+    background-color: #CACACA;
+    text-align: center;
+}
+footer p{
+    color: #474545;
+}
