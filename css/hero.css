@@ -1,12 +1,14 @@
- body{
+/*body, header and footer settings*/
+body{
     margin: 0;
     background-color: #474545
 }
 header{
     background-color: #474545;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
 } 
 header img{
     border-radius: 200px;
@@ -21,57 +23,128 @@ header h2{
     font-family: 'Press Start 2P', cursive, Poppins, sans-serif;
     font-size: 32px;
 }
-h1{
-    font-size: 64px;
-    color: #FFFFFF;
-    font-family: Poppins, Helvetica, Arial, sans-serif;
-} 
-h2{
-    font-size: 48px;
-    color: #FFFFFF;
-    font-family: Poppins, Helvetica, Arial, sans-serif;
-    }
-h3{
-    font-size: 36px;
-    color: #FFFFFF;
-    font-family: Poppins, Helvetica, Arial, sans-serif;
-}
-h4{
-    font-size: 24px;
-    color: #FFFFFF;
-    font-family: Poppins, Helvetica, Arial, sans-serif;
-}
-p{
-    font-size: 16px;
-    color: #FFFFFF;
-    font-family: Poppins light, Helvetica, Arial, sans-serif;
-}
-ol{
-    font-size: 16px;
-    color: #FFFFFF;
-    font-family: Poppins light, Helvetica, Arial, sans-serif;
-}
-ul{
-    font-size: 16px;
-    color: #FFFFFF;
-    font-family: Poppins light, Helvetica, Arial, sans-serif;
-}
 footer{
     background-color: #CACACA;
     text-align: center;
+    margin: 0 auto;
 }
 footer p{
     color: #474545;
-}
-a:link {
-    color:#A3BFEC;
-}
-a:visited {
-    color: #7C7C7C;
+    text-align: center;
+    margin: 0 auto;
 }
 footer a:link {
     color: #1581bf;
 }
 footer a:visited {
-    color: #805da1;
+    color: #3e92bf;
 }
+footer a:hover{
+    background-color: #474545;
+    color: #CACACA;
+}
+
+/*headings and paragraph settings*/
+h1{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    max-width: 800px;
+} 
+h2{
+    font-size: 48px;
+    color: #FFFFFF;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    max-width: 800px;
+    }
+h3{
+    font-size: 36px;
+    color: #FFFFFF;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    max-width: 800px;
+}
+h4{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    max-width: 800px;
+}
+p{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Poppins light, Helvetica, Arial, sans-serif;
+    max-width: 800px;
+}
+
+/*list settings*/
+ol{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Poppins light, Helvetica, Arial, sans-serif;
+    max-width: 800px;
+}
+ul{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Poppins light, Helvetica, Arial, sans-serif;
+    max-width: 800px;
+}
+
+/*link settings*/
+a:link {
+    color:#A3BFEC;
+}
+a:visited {
+    color: #acc0cf;
+}
+a:hover{
+    color: #474545;
+    background-color: #ffffff;
+}
+
+main img{
+    max-width: 100%;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+figcaption{
+    text-align: center;
+    font-size: 16px;
+    font-family: Poppins light, Helvetica, Arial, sans-serif;
+    font-style: italic;
+    margin: 0 auto;
+    color: #CACACA;
+}
+/* Add background color to the top navigation */
+.topnav {
+    background-color: #CACACA;
+    overflow: hidden;
+    /*text-align: right;*/
+    /*font-style: ;*/
+}
+/* Style the links inside the navigation bar */
+.topnav a{
+    float: left;
+    color: #474545;
+    text-align: right;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Press Start 2P", Poppins black, Helvetica, Arial, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #7C7C7C;
+    color: #ffffff;
+  }
+  
+  /* Add a color to the active/current link 
+  .topnav a.active {
+    color: #7C7C7C;
+  } */
+
+  
