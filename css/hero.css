@@ -90,7 +90,7 @@ ul{
     max-width: 800px;
 }
 
-/*link settings*/
+/*body hyperlink settings - note that these settings will not apply to footer and header menu*/
 a:link {
     color:#A3BFEC;
 }
@@ -102,6 +102,7 @@ a:hover{
     background-color: #ffffff;
 }
 
+/*main settings*/
 main img{
     max-width: 100%;
 }
@@ -118,6 +119,7 @@ figcaption{
     margin: 0 auto;
     color: #CACACA;
 }
+
 /* Add background color to the top navigation */
 .topnav {
     background-color: #CACACA;
@@ -125,6 +127,7 @@ figcaption{
     /*text-align: right;*/
     /*font-style: ;*/
 }
+
 /* Style the links inside the navigation bar */
 .topnav a{
     float: left;
