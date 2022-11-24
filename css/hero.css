@@ -150,4 +150,43 @@ figcaption{
     color: #7C7C7C;
   } */
 
-  
+/*Form styling*/
+form{
+    background-color: #CACACA;
+}
+form p{
+    font-size: 16px;
+    color: #474545;
+    font-family: Poppins light, Helvetica, Arial, sans-serif;
+    max-width: 800px;
+}
+form button{
+    size: 100px 20px;
+    color: #1581bf;
+}
+form label{
+    font-size: 16px;
+    color: #474545;
+    font-family: Poppins light, Helvetica, Arial, sans-serif;
+    max-width: 800px;
+}
+button text{
+    font-size: 16px;
+    color: #474545;
+    font-family: Poppins light, Helvetica, Arial, sans-serif;
+    max-width: 800px;
+}
+input.text {
+    stroke: #474545 10px;
+    width: 500px;
+    height: 20px;
+}
+input.email{
+    stroke: #474545 10px;
+    width: 500px;
+    height: 20px;
+}
+input{
+    width: 500px;
+    height: 20px;
+}
