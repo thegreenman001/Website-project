@@ -151,32 +151,33 @@ figcaption{
   } */
 
 /*Form styling*/
-form{
-    background-color: #CACACA;
-}
 form p{
-    font-size: 16px;
-    color: #474545;
+    font-size: 8px;
+    color: #cacaca;
     font-family: Poppins light, Helvetica, Arial, sans-serif;
     max-width: 800px;
 }
 form button{
     size: 100px 20px;
-    color: #1581bf;
+    color:#474545;
+    font-size: 30px;
+    font-family: Poppins bold, Helvetica, Arial, sans-serif;
+    font-style: bold;
+    padding: 10px;
 }
 form label{
     font-size: 16px;
-    color: #474545;
-    font-family: Poppins light, Helvetica, Arial, sans-serif;
-    max-width: 800px;
-}
-button text{
-    font-size: 16px;
-    color: #474545;
+    color: #cacaca;
     font-family: Poppins light, Helvetica, Arial, sans-serif;
     max-width: 800px;
 }
 input{
     width: 500px;
     height: 20px;
+    font-family: Poppins light, Helvetica, Arial, sans-serif;
+}
+textarea{
+    width: 500px;
+    height: 300px;
+    font-family: Poppins light, Helvetica, Arial, sans-serif;
 }
