@@ -121,28 +121,55 @@ figcaption{
 }
 
 /* Add background color to the top navigation */
-.topnav {
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
     background-color: #CACACA;
+    height: 500px;
+    color: #474545;
+    border-radius: 10px;
+  }
+  
+.topnav {
     overflow: hidden;
+    background-color: white;
+    position: relative; 
     /*text-align: right;*/
     /*font-style: ;*/
 }
 
+/*Hide the links inside the navigation menu (except for logo/home)*/
+.topnav #myLinks {
+    display: none;
+  }
+
 /* Style the links inside the navigation bar */
 .topnav a{
-    float: left;
-    color: #474545;
-    text-align: right;
+    color: black;
     padding: 30px 20px;
     text-decoration: none;
     font-size: 24px;
     font-family: "Press Start 2P", Poppins black, Helvetica, Arial, sans-serif;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: #CACACA;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #7C7C7C;
     color: #ffffff;
+  }
+  
+  .active {
+    background-color: #CACACA;
+    color: white;
   }
   
   /* Add a color to the active/current link 
