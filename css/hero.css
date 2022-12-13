@@ -132,7 +132,7 @@ figcaption{
   
 .topnav {
     overflow: hidden;
-    background-color: white;
+    background-color: rgb(226, 226, 226);
     position: relative; 
     /*text-align: right;*/
     /*font-style: ;*/
@@ -145,7 +145,7 @@ figcaption{
 
 /* Style the links inside the navigation bar */
 .topnav a{
-    color: black;
+    color: #474545;
     padding: 30px 20px;
     text-decoration: none;
     font-size: 24px;
