@@ -201,10 +201,12 @@ form label{
 input{
     width: 500px;
     height: 20px;
+    max-width: 100%;
     font-family: Poppins light, Helvetica, Arial, sans-serif;
 }
 textarea{
     width: 500px;
     height: 300px;
+    max-width: 100%;
     font-family: Poppins light, Helvetica, Arial, sans-serif;
 }
