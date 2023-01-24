@@ -26,20 +26,17 @@
 <body>
 
     <!-- Top Navigation Menu -->
-<div class="topnav">
-    <a href="CV webpage.html" class="active">Home</a>
-    <!-- Navigation links (hidden by default) -->
-    <div id="myLinks">
+    <div class="topnav" id="myTopnav">
+        <a href="CV webpage.html" class="active">Home</a>
         <a href="Portfolio page.html">Portfolio</a>
         <a href="contact page.html">Contact</a>
         <a href="About me page.html">About</a>
-</div>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-    
+        <!--Navigation links toggle when in mobile-->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
 <main>
     
     
@@ -83,18 +80,17 @@
             Donec condimentum egestas diam, eleifend porta lorem semper in. Proin condimentum nibh a purus semper tempus. Aliquam nunc orci, semper ac neque scelerisque, bibendum maximus neque. Nullam mi elit, vulputate nec libero sed, consectetur porttitor lacus. Donec sed arcu turpis. Cras auctor at ante nec imperdiet. Aenean tellus magna, convallis consequat pharetra commodo, sollicitudin eget risus. Aenean tellus tortor, tincidunt vitae lorem id, pretium ornare mauris. Nunc dapibus molestie neque a accumsan. Phasellus malesuada diam sed libero sollicitudin varius. Duis vestibulum eu diam et mattis. Sed pharetra arcu turpis, non elementum tellus eleifend quis. Cras sed urna ex. Vivamus vehicula scelerisque venenatis. Etiam dui eros, convallis at bibendum ac, tincidunt sed augue. Nullam vitae hendrerit enim.
         </p>
 
-    <script>
-        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-        function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-     </script>
- 
+      <script>
+            /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+                  function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                      x.className += " responsive";
+                  } else {
+                      x.className = "topnav";
+                  }
+                  }
+        </script>
     
 </main>
 

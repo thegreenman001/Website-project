@@ -28,20 +28,17 @@
 <body>
 
     <!-- Top Navigation Menu -->
-<div class="topnav">
-    <a href="CV webpage.html" class="active">Home</a>
-    <!-- Navigation links (hidden by default) -->
-    <div id="myLinks">
+    <div class="topnav" id="myTopnav">
+        <a href="CV webpage.html" class="active">Home</a>
         <a href="Portfolio page.html">Portfolio</a>
         <a href="contact page.html">Contact</a>
         <a href="About me page.html">About</a>
-</div>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-
+        <!--Navigation links toggle when in mobile-->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    
     <main>
         <header>
 
@@ -93,17 +90,16 @@
 
 
         <script>
-            /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-            function myFunction() {
-          var x = document.getElementById("myLinks");
-          if (x.style.display === "block") {
-            x.style.display = "none";
-          } else {
-            x.style.display = "block";
-          }
-        }
-         </script>    
-
+            /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+                  function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                      x.className += " responsive";
+                  } else {
+                      x.className = "topnav";
+                  }
+                  }
+           </script>
     </main>
     
     <br>   
