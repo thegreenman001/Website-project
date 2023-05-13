@@ -59,25 +59,25 @@ h1{
 h2{
     font-size: 36px;
     color: #FFFFFF;
-    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-family: Poppins Bold, Helvetica, Arial, sans-serif;
     max-width: 800px;
     }
 h3{
     font-size: 24px;
     color: #FFFFFF;
-    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-family: Poppins Bold, Helvetica, Arial, sans-serif;
     max-width: 800px;
 }
 h4{
     font-size: 18px;
     color: #FFFFFF;
-    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-family: Poppins Bold, Helvetica, Arial, sans-serif;
     max-width: 800px;
 }
 p{
     font-size: 16px;
     color: #FFFFFF;
-    font-family: Poppins light, Helvetica, Arial, sans-serif;
+    font-family: Poppins Regular, Helvetica, Arial, sans-serif;
     max-width: 800px;
 }
 
@@ -85,13 +85,13 @@ p{
 ol{
     font-size: 16px;
     color: #FFFFFF;
-    font-family: Poppins light, Helvetica, Arial, sans-serif;
+    font-family: Poppins Regular, Helvetica, Arial, sans-serif;
     max-width: 800px;
 }
 ul{
     font-size: 16px;
     color: #FFFFFF;
-    font-family: Poppins light, Helvetica, Arial, sans-serif;
+    font-family: Poppins Regular, Helvetica, Arial, sans-serif;
     max-width: 800px;
 }
 
