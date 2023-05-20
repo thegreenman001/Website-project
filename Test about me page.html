@@ -21,6 +21,15 @@
     <!-- Load the icon lirbary for the hamburger menu-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+     <!--Set current date in footer-->
+     <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var currentYear = new Date().getFullYear();
+        var footer = document.getElementById('footer');
+        footer.textContent = <br> + ' Copyright © ' + currentYear + ' José Fierro'; + <br>
+      });
+  </script>
+
 
 
 </head>
@@ -91,10 +100,16 @@
 
     <br>   
     <!--Footer element-->
-    <footer>
+    <footer id="footer">
         <br>
         <br>    
-        <p>Copyright © 2022 - José Fierro | <a href="mailto:acdef0002@gmail.com"> acdef0002@gmail.com</a> | +46 732 334 598</p>
+        <p><a href="Homepage.html">Home</a> | <a href="Portfolio page.html">Portfolio</a> | <a href="Contact page.html">Contact</a></p>
+           <br>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>          
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-snapchat"></a>
+        <br>
         <br>
     </footer>
 
