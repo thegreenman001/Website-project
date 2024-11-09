@@ -237,14 +237,14 @@ textarea{
 /*Accordion/toggle menu styling*/
 .accordion { 
     background-color: #474545; 
-    color: #444; 
+    color: white; 
     cursor: pointer; 
-    padding: 10px; 
+    padding-left: 10px; 
     width: 100%; 
     border: none; 
     text-align: left;
     outline: none;
-    font-size: 14px;
+    font-size: 15px;
     transition: 0.4s; 
 } 
 
@@ -255,9 +255,17 @@ textarea{
     color: #474545;
 } 
 
+.active, .accordion:hover h2{ 
+    color: #474545;
+} 
+
+.active h2{ 
+   color: #474545;
+} 
+
 /* Hide the panel by default */ 
 .panel { 
-    padding: 0 18px; 
+    padding-left: 10px; 
     display: none; 
     background-color: #474545; 
     color: white; 
