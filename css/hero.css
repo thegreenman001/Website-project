@@ -233,3 +233,33 @@ textarea{
     max-width: 100%;
     font-family: Poppins light, Helvetica, Arial, sans-serif;
 }
+
+/*Accordion/toggle menu styling*/
+.accordion { 
+    background-color: #474545; 
+    color: #444; 
+    cursor: pointer; 
+    padding: 10px; 
+    width: 100%; 
+    border: none; 
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    transition: 0.4s; 
+} 
+
+
+/* Style the active button */ 
+.active, .accordion:hover { 
+    background-color: #CACACA; 
+    color: #474545;
+} 
+
+/* Hide the panel by default */ 
+.panel { 
+    padding: 0 18px; 
+    display: none; 
+    background-color: #474545; 
+    color: white; 
+    overflow: hidden; 
+}
