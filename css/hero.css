@@ -234,6 +234,7 @@ textarea{
     font-family: Poppins light, Helvetica, Arial, sans-serif;
 }
 
+/*Accordion*/
 /*Accordion/toggle menu styling*/
 .accordion { 
     background-color: #474545; 
@@ -248,8 +249,19 @@ textarea{
     transition: 0.4s; 
 } 
 
+/* Style the accordion arrow */ 
+.arrow { 
+    float: left; 
+    transition: 0.4s;
+    transform: rotate(270deg); 
+} 
 
-/* Style the active button */ 
+/* Rotate arrow when active */ 
+.accordion.active .arrow { 
+    transform: rotate(360deg);
+}
+
+/* Style the accordion active button */ 
 .active, .accordion:hover { 
     background-color: #CACACA; 
     color: #474545;
