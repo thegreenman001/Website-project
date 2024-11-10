@@ -126,19 +126,27 @@
                   }
                   }
         </script>
+        <script>
+            /*Function to retreive value of current year for footer display*/
+        document.addEventListener('DOMContentLoaded', function () {
+            var year = new Date().getFullYear();
+            document.getElementById('currentYear').textContent = year;
+        });
+        </script>
     </main>
         
-        <footer id="footer">
-            <br>
-            <br>   
-            <p>Copyright © 2023 - José Fierro <!--| <a href="mailto:acdef0002@gmail.com"> acdef0002@gmail.com</a> | +46 732 334 598</p>-->
-            <p><a href="index.html">Home</a> | <a href="Portfolio page.html">Portfolio</a> | <a href="contact page.html">Contact</a></p>
-           <br>
-           <a href="https://www.facebook.com/profile.php?id=100009801758834" class="fa fa-facebook" target="_blank"></a>     
-           <a href="https://www.linkedin.com/in/jose-fierro-034034155/" class="fa fa-linkedin" target="_blank"></a>
-           <a href="https://www.instagram.com/josefierro01/" class="fa fa-instagram" target="_blank"></a>
-            <br>
-        </footer>
+    <footer id="footer">
+        <br>
+        <br>  
+        <p>&copy; <span id="currentYear"></span> José Fierro | All rights reserved.</p> 
+        <!--<p>Copyright © 2023 - José Fierro | <a href="mailto:acdef0002@gmail.com"> acdef0002@gmail.com</a> | +46 732 334 598</p>-->
+        <p><a href="index.html">Home</a> | <a href="Portfolio page.html">Portfolio</a> | <a href="contact page.html">Contact</a></p>
+       <br>
+       <a href="https://www.facebook.com/profile.php?id=100009801758834" class="fa fa-facebook" target="_blank"></a>     
+       <a href="https://www.linkedin.com/in/jose-fierro-034034155/" class="fa fa-linkedin" target="_blank"></a>
+       <a href="https://www.instagram.com/josefierro01/" class="fa fa-instagram" target="_blank"></a>
+       <br>
+    </footer>
   
 
 </body>

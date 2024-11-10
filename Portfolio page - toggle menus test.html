@@ -346,13 +346,20 @@
     }
 });
     </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var year = new Date().getFullYear();
+        document.getElementById('currentYear').textContent = year;
+    });
+    </script>
 
 </main>
 
 <footer id="footer">
     <br>
-    <br>   
-    <p>Copyright © 2023 - José Fierro <!--| <a href="mailto:acdef0002@gmail.com"> acdef0002@gmail.com</a> | +46 732 334 598</p>-->
+    <br>  
+    <p>&copy; <span id="currentYear"></span> José Fierro | All rights reserved.</p> 
+    <!--<p>Copyright © 2023 - José Fierro | <a href="mailto:acdef0002@gmail.com"> acdef0002@gmail.com</a> | +46 732 334 598</p>-->
     <p><a href="index.html">Home</a> | <a href="Portfolio page.html">Portfolio</a> | <a href="contact page.html">Contact</a></p>
    <br>
    <a href="https://www.facebook.com/profile.php?id=100009801758834" class="fa fa-facebook" target="_blank"></a>     
